@@ -2,6 +2,27 @@
 
 Esse exercício deve considerar o clone do código público disponibilizado no repositório [alexpaulooliveira/reactjs_exerc__styled_components___start_point](https://github.com/alexpaulooliveira/reactjs_exerc__styled_components___start_point) como ponto de partida.
 
+### Como baixar, configurar, e executar a aplicação:
+
+Estando na pasta à partir da qual você deseja que a aplicação seja criada, execute o seguinte comando:
+
+```
+git clone <endereço do repositório>
+```
+
+Depois, instale as bibliotecas listadas no package.json, fazendo uso do seguinte comando:
+
+```
+npm install
+```
+
+Por fim, execute a aplicação fazendo uso do seguinte comando:
+
+
+```
+npm start
+```
+
 ## Objetivos do exercício:
 
 
