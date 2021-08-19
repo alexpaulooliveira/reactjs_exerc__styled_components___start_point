@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Exercício acerca da API styled-components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse exercício deve considerar o clone do código público disponibilizado no repositório [alexpaulooliveira/reactjs_exerc__styled_components___start_point](https://github.com/alexpaulooliveira/reactjs_exerc__styled_components___start_point) como ponto de partida.
 
-## Available Scripts
+## Objetivos do exercício:
 
-In the project directory, you can run:
 
-### `npm start`
+### 1) Ajuste de look and feel:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O formulário deve ficar com a aparência idêntica à que pode ser vista na imagem abaixo:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Drag Racing](./img/../src/img/sample.png)
 
-### `npm test`
+Isso implica:\
+a) Formulário com bordas arredondadas;\
+b) Inputs com bordas arredondadas;\
+c) Botão com bordas arredondadas;\
+d) Fundo dos inputs acinzentados;\
+e) O título e o botão devem ter cores próximas do *background*;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### 2) Realce de foco:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O formulário deve realçar a seleção do componente que possuir o foco com uma cor aproximadamente igual à do *background*.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Drag Racing](./img/../src/img/sample2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3) Botão sensível ao *on hover*
 
-### `npm run eject`
+Tanto o botão, quanto o cursor do mouse, devem mudar o estilo quando o usuário passar o mouse sobre o botão. Observe a imagem abaixo:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Drag Racing](./img/../src/img/sample3.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4) Validação dos campos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Todos os campos devem ser considerados requeridos. Na submissão do formulário, uma mensagem de erro deve ser exibido, caso algum campo não tenha sido preenchido, conforme imagem abaixo:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Drag Racing](./img/../src/img/sample4.png)
 
-## Learn More
+### 5) Mensagem informando que o formulário esta validado:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Quando o formulário for submetido, se todos os campos estiverem corretamente preenchidos, uma mensagem indicando isso deve ser exibida, conforme *print screen* visto abaixo:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Drag Racing](./img/../src/img/sample5.png)
 
-### Code Splitting
+**OBS: O aluno pode atingir resultados melhores! As solicitações acima representam apenas um ponto de partida!**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
