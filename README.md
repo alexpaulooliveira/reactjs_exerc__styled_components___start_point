@@ -54,7 +54,7 @@ Tanto o botão, quanto o cursor do mouse, devem mudar o estilo quando o usuário
 
 ### 4) Validação dos campos
 
-Todos os campos devem ser considerados requeridos. Na submissão do formulário, uma mensagem de erro deve ser exibido, caso algum campo não tenha sido preenchido, conforme imagem abaixo:
+Todos os campos devem ser considerados requeridos. Na submissão do formulário, uma mensagem de erro deve ser exibida, caso algum campo não tenha sido preenchido, conforme imagem abaixo:
 
 ![Drag Racing](./img/../src/img/sample4.png)
 
